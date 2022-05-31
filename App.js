@@ -10,7 +10,9 @@ export default function App(){
         <Text style={styles.sectionTitle}>Today's Tasks</Text>
           <View style={styles.listTasks}>
                     {/* Task is here! */}
-            <Task/>
+            <Task text="Go fishing"/>
+            <Task text="Go shopping"/>
+
           </View>
       </View>
     </View>
@@ -20,7 +22,7 @@ export default function App(){
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "pink",
+    backgroundColor: "#ffdde1",
   },
 
   taskWrapper: {
@@ -34,12 +36,11 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     paddingBottom: 10,
     backgroundColor: "#f64f59",
-
   },
 
   listTasks: {
-    paddingTop: 30,
-    paddingLeft: 20,
+    padding: 20,
+    
   }
 })
  
