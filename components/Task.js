@@ -9,7 +9,7 @@ const Task = ({text}) => {
         <View style={styles.square}></View>
       </View>
       <Text style={styles.itemText}>{text}</Text>
-      <View style={styles.circle}>
+      <View style={styles.circle} >
 
       </View>
     </View>
