@@ -71,6 +71,7 @@ const styles = StyleSheet.create({
 
   listTasks: {
     padding: 20,
+    overflow: "scroll",
     
   },
 
